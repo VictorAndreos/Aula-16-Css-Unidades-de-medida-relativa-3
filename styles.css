@@ -3,7 +3,7 @@ html{
     font-size: 32px;
     color: aliceblue;
 }
-/* 
+/* comentario didático
 ( rem ) tem a mesma ideologia do ( em ),
 referente ao calculo, ele multiplicar tbm, 
 porem não vai seguir o pai do codigo e sim a raiz do html.
