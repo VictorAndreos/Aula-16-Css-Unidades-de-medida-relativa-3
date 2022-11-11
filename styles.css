@@ -1,0 +1,32 @@
+html{
+    background-color:black;
+    font-size: 32px;
+    color: aliceblue;
+}
+/* 
+( rem ) tem a mesma ideologia do ( em ),
+referente ao calculo, ele multiplicar tbm, 
+porem não vai seguir o pai do codigo e sim a raiz do html.
+
+Abaixo no body, ele esta multiplicando por 3x o tamanho da raiz do html que é 32px 
+e assim segue os demais...
+*/
+
+body{
+    background-color:yellow;
+    width: 50%;
+    font-size: 3rem;
+
+}
+
+.Pai{
+    background-color:green;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.Filha{
+    background-color: blue;
+    width: 50%;
+    font-size: 0.5rem;
+}
